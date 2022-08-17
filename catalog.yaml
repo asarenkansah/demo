@@ -6,7 +6,7 @@ metadata:
     argocd/app-name: dev-notification-service
   description: Demo for the 2022 Planview Hackathon
   tags:
-    - Python
+    - python
     - data
     - hackathon
   links:
