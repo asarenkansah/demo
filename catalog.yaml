@@ -4,6 +4,8 @@ metadata:
   name: demo-component
   annotations:
     argocd/app-name: dev-notification-service
+    backstage.io/kubernetes-namespace: dice-space
+    backstage.io/kubernetes-id: notification-service
   description: Demo for the 2022 Planview Hackathon
   tags:
     - python
