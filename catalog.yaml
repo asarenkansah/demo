@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: notification-service
+  name: author-deployment
   annotations:
     argocd/app-name: dev-notification-service
-    backstage.io/kubernetes-namespace: core
-    backstage.io/kubernetes-id: notification-service
+    backstage.io/kubernetes-namespace: test
+    backstage.io/kubernetes-id: author-deployment
   description: Demo for the 2022 Planview Hackathon
   tags:
     - python
