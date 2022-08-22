@@ -4,7 +4,7 @@ metadata:
   name: author-deployment
   annotations:
     argocd/app-name: dev-notification-service
-    name: my-kubernetes-component
+    backstage.io/kubernetes-id: my-kubernetes-component
   description: Demo for the 2022 Planview Hackathon
   tags:
     - python
